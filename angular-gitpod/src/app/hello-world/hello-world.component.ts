@@ -9,4 +9,8 @@ export class HelloWorldComponent implements OnInit {
   constructor() { }
   ngOnInit() {
   }
+  addizione(a : number, b : number) {
+    return a + b
+  }
+  nome = 'Riccardo'
 }

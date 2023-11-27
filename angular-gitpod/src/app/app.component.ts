@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-gitpod';
+
+  moltiplica (n : number, m : number)
+  {
+    return n * m;
+  }
 }
